@@ -174,11 +174,11 @@ img {
 }
 .features-list {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 24px;
 }
 .features-item {
-  flex-basis: ((100% - 72px) / 4);
+ flex-basis: ((100% - 72px) / 4); 
 }
 .text-what-are,
 .title-our-team {
@@ -230,7 +230,7 @@ img {
   gap: 24px;
 }
 .our-team-item {
-  /* flex-basis: ((100% - 72px) / 4); */
+  flex-basis: ((100% - 72px) / 4);
   background: var(--background-color-primary);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
   0px 1px 1px rgba(46, 47, 66, 0.16), 
@@ -252,7 +252,7 @@ img {
 }
 .our-team-text {
   text-align: center;
-  /* padding-top: 32; */
+  padding-top: 32;
   padding-bottom: 32px;
   /* background: var(--background-color-primary);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
