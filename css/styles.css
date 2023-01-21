@@ -174,7 +174,7 @@ img {
 }
 .features-list {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: nowrap;
   gap: 24px;
 }
 .features-item {
